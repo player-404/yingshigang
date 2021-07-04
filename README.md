@@ -67,7 +67,7 @@ npm run build
 
 * 分类
 
-  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/classify.png" alt="分类" style="float:left;" width="600"/>
+  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/classify1.png" alt="分类" style="float:left;" width="600"/>
 
 * 搜索
 

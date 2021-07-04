@@ -3,7 +3,7 @@
 ### tips:
 
 * 请在pc端访问
-* 项目依赖 [TMDB]([The Movie Database (TMDb) (themoviedb.org)](https://www.themoviedb.org/)) Api
+* 项目依赖 [TMDB](https://www.themoviedb.org/) Api
 
 
 
@@ -27,7 +27,7 @@
 
 ### 地址
 
-[线上预览]([movie (zphlplay.top)](http://movie.zphlplay.top/#/))
+[线上预览](http://movie.zphlplay.top/#/)
 
 ## Project setup
 

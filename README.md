@@ -51,15 +51,15 @@ npm run build
 
 * 主页
 
-  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/首页.png" alt="主页" style="float:left;" width="600"/>
+  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/%E9%A6%96%E9%A1%B51.png" alt="主页" style="float:left;" width="600"/>
 
 * 电影
 
-  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/%E7%94%B5%E5%BD%B1.png" width="600"  style="float:left;"/>
+  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/%E7%94%B5%E5%BD%B11.png" width="600"  style="float:left;"/>
 
 * 电视
 
-  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/%E7%94%B5%E8%A7%86.png" alt="电视" style="float:left;" width="600"/>
+  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/TV.png" alt="电视" style="float:left;" width="600"/>
 
 * 登陆
 

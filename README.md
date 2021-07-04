@@ -71,4 +71,4 @@ npm run build
 
 * 搜索
 
-  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/search.png" alt="搜索" style="float:left;" width="600"/>
+  <img src="https://cdn.jsdelivr.net/gh/player-404/picture/search1.png" alt="搜索" style="float:left;" width="600"/>

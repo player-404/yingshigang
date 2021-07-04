@@ -1,0 +1,1 @@
+export const type =['电影', '电视', '演员'];

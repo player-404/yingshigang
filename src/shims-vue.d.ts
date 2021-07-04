@@ -4,3 +4,7 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+declare module '*/plugins/element'
+declare module "swiper/vue"
+declare module 'animate.css'
+declare module 'md5'

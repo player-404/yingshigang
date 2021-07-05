@@ -8,7 +8,8 @@ interface Data {
     [propName: string]: any
 }
 export async function discoverData(payload: Data): Promise<Obj> {
-    const data: Data = await movieDisCover(payload.classify, payload.genres, payload.language, payload.year, payload.pages, payload.sort);
+    let count: string | number = payload.sort === 'vote_average.desc' ? 500 : '';
+    const data: Data = await movieDisCover(payload.classify, payload.genres, payload.language, payload.year, payload.pages, payload.sort, count);
     return {
         data: data.data.results,
         pages: data.data.total_pages,

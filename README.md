@@ -49,7 +49,7 @@ npm run build
 
 ### 部分运行截图
 
-* 主页
+* 主页·
 
   <img src="https://cdn.jsdelivr.net/gh/player-404/picture/%E9%A6%96%E9%A1%B51.png" alt="主页" style="float:left;" width="600"/>
 

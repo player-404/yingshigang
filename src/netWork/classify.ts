@@ -5,7 +5,7 @@ interface Year {
     min: string
 }
 
-export function movieDisCover(classify: string = 'movie', genres: string = '', language: string = '', year: any = '', pages: number = 1, sort: string = '') {
+export function movieDisCover(classify: string = 'movie', genres: string = '', language: string = '', year: any = '', pages: number = 1, sort: string = '', count: number | string = '') {
     const startTime: string = classify === 'tv' ? 'first_air_date.gte' : 'primary_release_date.gte';
     const endTime: string = classify === 'tv' ? 'first_air_date.lte' : 'primary_release_date.lte';
     return request({
@@ -18,7 +18,7 @@ export function movieDisCover(classify: string = 'movie', genres: string = '', l
             with_original_language: language,
             page: pages,
             sort_by: sort,
-            'vote_count.gte': 1000
+            'vote_count.gte': count
         }
     })
 }

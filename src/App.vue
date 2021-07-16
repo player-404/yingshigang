@@ -14,10 +14,12 @@
         />
     </el-header>
     <el-main class="main">
-      <keep-alive>
-        <router-view v-if="$route.meta.keepAlive"/>
-      </keep-alive>
-      <router-view v-if="!$route.meta.keepAlive"/>
+      <router-view v-slot="{ Component }" v-if="$route.meta.keepAlive">
+        <keep-alive>
+          <component :is="Component"/>
+        </keep-alive>
+      </router-view>
+      <router-view v-else/>
     </el-main>
   </el-container>
 </template>

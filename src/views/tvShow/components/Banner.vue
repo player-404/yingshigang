@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <el-carousel height="100vh" v-if="datas">
+    <el-carousel height="900px" v-if="datas">
       <el-carousel-item
         v-for="(item, index) in datas"
         :key="index"
@@ -46,6 +46,6 @@ export default defineComponent({
 <style lang="less" scoped>
 .banner {
   width: 100%;
-  height: 100%;
+  height: 900px;
 }
 </style>

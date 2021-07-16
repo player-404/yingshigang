@@ -1,6 +1,6 @@
 <template>
   <div class="block">
-    <el-carousel height="800px" v-if="datas.length > 0">
+    <el-carousel height="900px" v-if="datas.length > 0">
       <!-- v-if="datas.length > 0" -->
       <el-carousel-item
         v-for="(item, index) in datas"

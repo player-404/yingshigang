@@ -63,7 +63,7 @@ export default defineComponent({
   props: {
     height:{
       type: String,
-      default: '48vh'
+      default: '420px'
     },
     slidesPerView: {
       type: Number,

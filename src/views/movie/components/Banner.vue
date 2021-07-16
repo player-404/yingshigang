@@ -1,6 +1,6 @@
 <template>
   <div class="banner" v-loading="loading">
-    <el-carousel height="100vh" v-if="data">
+    <el-carousel height="900px" v-if="data">
       <el-carousel-item v-for="(item, index) in data" :key="index">
         <el-image
           :src="`https://image.tmdb.org/t/p/original${item.backdrop_path}`"
@@ -45,6 +45,6 @@ export default defineComponent({
 <style lang="less" scoped>
 .banner {
   width: 100%;
-  height: 100vh;
+  max-height: 900px;
 }
 </style>

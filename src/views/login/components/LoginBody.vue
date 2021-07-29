@@ -215,7 +215,7 @@ export default defineComponent({
     //提交表单
     function submit(): void {
       //注册
-      if (accountStatus.value && passStatus.value && checkPass.value) {
+      if (accountStatus.value && passStatus.value && checkStatus.value) {
         //查询是否存在账号
         if (localStorage.getItem(account.value)) {
           ElMessage({

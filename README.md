@@ -23,12 +23,6 @@
 * 使用LocalStorage、cookie实现本地注册、登陆功能
 * 使用nginx部署项目到服务器
 
-
-
-### 地址
-
-[线上预览](http://movie.zphlplay.top/#/)
-
 ## Project setup
 
 ```
